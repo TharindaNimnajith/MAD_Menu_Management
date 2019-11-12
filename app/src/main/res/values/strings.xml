@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Sweet Bread Shop</string>
+    <string name="add_new_food_item">Add New Food Item</string>
+    <string name="chocolate_cake">Chocolate Cake</string>
+    <string name="burger_bun">Burger Bun</string>
+    <string name="cup_cake">Cup Cake</string>
+    <string name="burger_buns">Burger Buns</string>
+    <string name="milk_bread">Milk Bread</string>
+    <string name="discount">Discount</string>
+    <string name="price">Unit Price</string>
+    <string name="description">Description</string>
+    <string name="upload_an_image">Upload an Image</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_item">Add Item</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="name">Name</string>
+    <string name="no_description">no description</string>
+    <string name="_20_00">20.00</string>
+    <string name="_100_00">100.00</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="account">My Account</string>
+    <string name="_80_00">80.00</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit_price_lkr">Unit Price (LKR)</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_unit_price">Enter unit price</string>
+    <string name="enter_discount">Enter discount</string>
+    <string name="enter_description">Enter description</string>
+    <string name="todo">TODO</string>
+    <string name="img_list_row">img_list_row</string>
+    <string name="search_food">Search Food</string>
+
+    <string name="homelogo">homelogo</string>
+    <string name="nacc">Create Account</string>
+    <string name="signin">Sign In </string>
+    <string name="logoim">logoimage</string>
+    <string name="signnm">User Name</string>
+    <string name="spwd">Password</string>
+    <string name="tsign">Sign In</string>
+    <string name="bsign">Login</string>
+    <string name="CreateAcc">Create Account</string>
+    <string name="accuname">User Name</string>
+    <string name="accemail"> Email</string>
+    <string name="accpassword">Password</string>
+    <string name="accrpassword">Re-enter Password</string>
+    <string name="accsignup">sign up now</string>
+    <string name="admintextbtn">Admin?</string>
+    <string name="notadmintextbtn">Not Admin?</string>
+    <string name="hupdatename">Update Profile</string>
+    <string name="updateuname">Username</string>
+    <string name="updateemail">Email</string>
+    <string name="updatepassword">Password</string>
+    <string name="updaterpassword">Re-Enter Password</string>
+    <string name="updateuserbtn">Update</string>
+    <string name="deleteuserbtn">Delete</string>
+    <string name="adminhdname">Admin Login</string>
+    <string name="adminuname">Username</string>
+    <string name="adminpass">Password</string>
+    <string name="adminlogin">Login</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="ip">errr</string>
+
+    <!--NaYA-->
+    <string name="Dtime">Time</string>
+    <string name="Ddate">Date</string>
+    <string name="Dcontract_number">Telephone NO</string>
+    <string name="Daddress">Address</string>
+    <string name="Ddistricts" translatable="false">Apply Date</string>
+    <string name="title_activity_delivery_home">deliveryHome</string>
+
+    <string name="OrderID">----------------OrderID</string>
+    <string name="DZipcode">Zipcode</string>
+    <string name="DState">State</string>
+    <string name="Dmessage">--------Select a City-------</string>
+    <string name="UserID">----------------UserID</string>
+    <string name="DPRICE">Price :</string>
+    <string name="ddate">Delivered Date</string>
+    <string name="udatese">----------Selected City</string>
+    <string name="ddeerer">--------Rquested Date</string>
+
+    <string-array name="name">
+        <item>Malabe</item>
+        <item>Maharagama</item>
+        <item>Kottawa</item>
+        <item>Piliyandala</item>
+    </string-array>
+</resources>

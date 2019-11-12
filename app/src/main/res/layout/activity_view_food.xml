@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        tools:context="com.example.ebreadshop.menuManagement.ViewFoodActivity">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_styles_2"
+            android:onClick="back"
+            android:text="@string/cancel"
+            android:textColor="@color/colorText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/shopping_cart"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/shopping_cart"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:contentDescription="@string/chocolate_cake"
+            android:focusable="true"
+            android:onClick="addToCart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/qty_value_"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/shopping" />
+
+        <NumberPicker
+            android:id="@+id/qty_value_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="50dp"
+            android:scrollbarSize="4dp"
+            android:scrollbarStyle="outsideInset"
+            android:solidColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/qty"
+            app:layout_constraintTop_toBottomOf="@+id/price_value_" />
+
+        <TextView
+            android:id="@+id/price_value_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="76dp"
+            android:text="@string/_80_00"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_" />
+
+        <TextView
+            android:id="@+id/title_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="@string/chocolate_cake"
+            android:textAllCaps="true"
+            android:textColor="#F5F14134"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/unit_price_"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="56dp"
+            android:text="@string/unit_price_lkr"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/price_value_"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/quantity"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/unit_price_" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
